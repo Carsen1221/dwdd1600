@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A helpful guide for gardners"/>
+    <meta name="author" content="Carsen Field"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="plant.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+    
+<title>Rooted: Home</title>
+</head>
+<body>
+    <header>
+        <h1>Rooted</h1>
+        <p>A Guide for Gardeners</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Plant Care</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="species.html">Species</a></li>
+            <li class="active"><a href="plantdelivery.html">Plant Delivery</a></li>
+        </ul>
+    </nav>
+    
+        <main>
+        <h1>Subscribe to Our Newsletter</h1>
+            
+        <form method="get" class="myForm" action="thanks.html">
+        
+        <fieldset>
+        <legend>Customer Information</legend>
+        <label>Full Name* <input type="text" name="name" required></label>
+             
+        <label>Phone Number* <input type="tel" name="phone" required placeholder="801-123-4567"></label>
+            
+        <label>Home Address* <input type="text" name="address" required></label>
+            
+        <label>Email* <input type="text" name="email" required></label>
+        </fieldset>
+            
+        <fieldset>
+            <legend>How often would you like to receive?</legend>
+            <label><input type="radio" name="method" value="2weeks">Every two weeks </label>
+            <label><input type="radio" name="method" value="monthly">Once a month </label>
+            <label><input type="radio" name="method" value="everyother">Every other month </label>
+        </fieldset>
+            
+        <fieldset>
+        <legend>Delivery Options</legend>
+            <label><input type="checkbox" name="email" value="chosen"> Email</label>
+            <label><input type="checkbox" name="home" value="chosen"> Home Address</label>
+            <label><input type="checkbox" name="text" value="chosen"> Text Message</label>
+            
+            <label> Preferred Delivery Time?
+            <select name="time">
+            <option value="none">Please Select</option>
+            <option value="morning">9:00am</option>
+            <option value="noon">12:00pm</option>
+            <option value="afternoon">3:00pm</option>
+            <option value="evening">6:00pm</option>    
+            </select>
+            </label>
+            
+        </fieldset>
+            
+            
+        <label> Comments
+            <textarea name="comments"></textarea>
+            </label>
+            
+
+        <input type="submit" value="Send Delivery Request">
+        </form>
+            
+        
+        </main>
+        
+    
+    <footer>
+    <p>&copy;2024 &bull; Carsen Field &bull; <a href="mailto:carsenf1221@gmail.com">Email Us</a></p>
+        <div style="clear:both;"></div>
+    </footer>
+     
+</body>
+
+</html>
